@@ -1,7 +1,7 @@
 # Nikhil's dotfiles
 ## Refrences
-[VIM and Python - A Match Made in Heaven](rp1)
-[You Complete Me - Installation Guide](ycm1)
+* [VIM and Python - A Match Made in Heaven](rp1)
+* [You Complete Me - Installation Guide](ycm1)
 
 ## VIM Config
 * Copy the vimrc to `~/.vimrc`
