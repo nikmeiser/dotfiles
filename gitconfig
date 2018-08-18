@@ -1,0 +1,12 @@
+[user]
+	name = Nikhil Prabhakar
+	email = nikhil@impulselabs.io
+[core]
+	mergeoptions = --edit
+	excludesfile = /Users/nikhil/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Users/nikhil/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
