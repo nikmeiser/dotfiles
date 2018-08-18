@@ -37,26 +37,6 @@ set foldlevel=99
 " Enable folding with the spacebar
 nnoremap <space> za
 
-" PEP8 indentation for Python
-"au BufNewFile,BufRead *.py
-"    \ set tabstop=4
-"    \ set softtabstop=4
-"    \ set shiftwidth=4
-"    \ set textwidth=79
-"    \ set expandtab
-"    \ set autoindent
-"    \ set fileformat=unix
-
-" Indentation for other code
-"au BufNewFile,BufRead *.js, *.html, *.css
-"    \ set tabstop=2
-"    \ set softtabstop=2
-"    \ set shiftwidth=2
-
-
-" Flag unneccessary blank space
-"au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
-
 
 " UTF8 support
 set encoding=utf-8
